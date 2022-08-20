@@ -28,5 +28,6 @@
     //Utils
     "target": "ES2021",
     "skipLibCheck": true
-  }
+  },
+  "include": ["src", "test"]
 }
