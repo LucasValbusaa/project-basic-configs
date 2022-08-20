@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "material-icon-theme.folders.associations": {
+    "domain": "class",
+    "entities": "class",
+    "entity": "class",
+    "useCases": "resource",
+    "dto": "less",
+    "strategies": "keys",
+    "repository": "mappings",
+    "infrastructure": "server",
+    "infra": "server",
+    "@shared": "shared"
+  },
+  "material-icon-theme.files.associations": {
+    "*.module.ts": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.contoller.ts": "nest-contoller",
+    "*.entity.ts": "nest",
+    "*.sequelize.ts": "sequelize"
+  }
+}
