@@ -7,3 +7,17 @@
 - Eslint
 - Husky
 - Lint Staged
+- Git Commit Msg Linter
+
+### 📝 Clone and use
+
+```bash
+   # Clone the repository
+   $ git clone https://github.com/LucasValbusaa/project-basic-configs.git
+
+   # Enter in folder
+   $ cd project-basic-configs
+
+   # Install dependencies
+   $ npm install
+```
