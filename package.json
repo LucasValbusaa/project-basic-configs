@@ -5,7 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node dist/src/main/server.js",
-    "build": "rimraf dist && tsc --p tsconfig.build.json"
+    "build": "rimraf dist && tsc --p tsconfig.build.json",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "keywords": [],
   "author": "",
